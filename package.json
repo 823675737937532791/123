@@ -1,0 +1,33 @@
+{
+  "name": "agent-flight-recorder",
+  "version": "0.1.0",
+  "description": "A tiny black box recorder for agent runs: commands, output, git diffs, timing, and shareable HTML reports.",
+  "type": "module",
+  "bin": {
+    "agent-flight-recorder": "./bin/agent-flight-recorder.js",
+    "afr": "./bin/agent-flight-recorder.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "smoke": "node ./bin/agent-flight-recorder.js run -- echo hello-agent"
+  },
+  "keywords": [
+    "agents",
+    "ai-agents",
+    "observability",
+    "mcp",
+    "agent-tracing",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ]
+}
